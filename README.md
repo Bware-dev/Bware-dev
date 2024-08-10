@@ -6,7 +6,7 @@ Bware is a collection of software projects
 
 ## Projects
 
-| Program                   | Description                                       |
+| Software                  | Description                                       |
 | :------------------------ | :------------------------------------------------ |
 | B                         | The B programming language                        |
 | eB                        | A terminal-based text editor                      |
