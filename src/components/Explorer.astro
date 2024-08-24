@@ -1,0 +1,31 @@
+---
+import Window from '../layouts/Window.astro';
+---
+
+<div id="explorer" class="explorer">
+	<h2>Index</h2>
+</div>
+
+<style>
+	.explorer {
+		position: fixed;
+		top: 150px;
+		bottom: 150px;
+		left: -300px;
+		width: 333px;
+		background: #333;
+		color: #fff;
+		border: 3px solid #cfbfa3;
+		border-radius: 15px;
+		box-sizing: border-box;
+		display: flex;
+		transition: left 0.3s ease;
+		z-index: 2;
+		padding: 20px;
+		overflow: auto;
+	}
+
+	.explorer.open {
+		left: 15px;
+	}
+</style>
